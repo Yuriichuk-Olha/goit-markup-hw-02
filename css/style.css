@@ -1,0 +1,85 @@
+:root {
+    --secondary-text-color:#757575;
+    --accent-text-color:#2196F3;
+    --primory-text-color:#212121;
+    --primory-white-colowr:#FFFFFF;
+}
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color:var(--primory-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primory-text-color);
+    }
+
+li {
+   list-style: none
+    }
+
+
+.header-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+}
+
+.accent-logo {
+    color: var(--accent-text-color);
+}
+
+.navigation-item {
+   
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+
+.header-contact {
+   
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus, 
+.header-contact:hover,
+.header-contact:focus {
+    color:var(--accent-text-color);
+}
+
+
+
+ 
+
+
+ /* основний color #212121 
+тексту color2 #757575
+color bily #FFFFFF
+color blue #2196F3
+color blak #000000
+fon #F5F5F5; 
+kontakty rgba(255, 255, 255, 0.6;*/
+
+
+/* font-family: 'Roboto',
+sans-serif;
+font-weight: 400
+font-weight: 500
+font-weight: 700
+font-weight: 900 */
+
+/* 
+
+основний color #212121 
+тексту color2 #757575
+color bily #FFFFFF
+color blue #2196F3
+color blak #000000 */
