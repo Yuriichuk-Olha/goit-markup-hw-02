@@ -1,23 +1,57 @@
 :root {
     --secondary-text-color:#757575;
     --accent-text-color:#2196F3;
-    --primory-text-color:#212121;
-    --primory-white-colowr:#FFFFFF;
-}
+    --primary-text-color:#212121;
+    --primary-white-color:#FFFFFF;
+    --primary-color: rgba(255, 255, 255, 0.6);
+    --primary-background-color:#2F303A
+}   
+
 body {
     font-family: Roboto, sans-serif;
     font-size: 14px;
-    color:var(--primory-text-color);
+    color:var(--primary-text-color);
 }
 
 a {
     text-decoration: none;
-    color: var(--primory-text-color);
+    color: var(--primary-text-color);
     }
 
+ul {
+    padding: 0;
+}
+
 li {
-   list-style: none
+   list-style: none;
     }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+}
+
+.header {
+    border-bottom: 1px solid #ececec;
+}
 
 
 .header-logo {
@@ -55,31 +89,128 @@ li {
     color:var(--accent-text-color);
 }
 
+.hero-section {
+    background-color:var(--primary-background-color);
+}
 
+.main-title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: Center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--primary-white-color);
+    
+}
 
- 
+.hero-button {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;       
+    letter-spacing: 0.06em; 
+    color:var(--primary-white-color);
+    background-color:var(--accent-text-color);
+    padding:10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
 
+.benefits-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
- /* основний color #212121 
-тексту color2 #757575
-color bily #FFFFFF
-color blue #2196F3
-color blak #000000
-fon #F5F5F5; 
-kontakty rgba(255, 255, 255, 0.6;*/
+.benefits-description {
+  
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
+}
 
+.team-user {
 
-/* font-family: 'Roboto',
-sans-serif;
-font-weight: 400
-font-weight: 500
-font-weight: 700
-font-weight: 900 */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
-/* 
+.team-job {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--secondary-text-color);
 
-основний color #212121 
-тексту color2 #757575
-color bily #FFFFFF
-color blue #2196F3
-color blak #000000 */
+}
+.footer {
+   background-color:var(--primary-background-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color);
+
+}
+ .footer-address {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color);
+ }
+
+.footer-contact {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--primary-color);
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+    color:var(--accent-text-color);
+}
+
+/* portfolio */
+.main-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-white-color);
+    background-color:var(--accent-text-color);
+    padding:6px 25px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px
+     rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+     border-radius: 4px;
+   
+}
+.main-user {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--primary-text-color);
+}
+.item-main {
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color:var(--secondary-text-color)
+
+}
+
+/* portfolio */
