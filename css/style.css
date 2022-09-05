@@ -56,12 +56,12 @@ ul {
 
 
 .header-logo {
-    font-family: "Raleway";
+    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
-    
-    
+    line-height: 1.19;
+    color:var(--primary-text-color);
+       
 }
 
 .accent-logo {
@@ -73,6 +73,7 @@ ul {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   
 }
 
 .header-contact {
@@ -92,6 +93,9 @@ ul {
 .navigation-link.current {
     color:var(--accent-text-color)
 }
+.navigation-link {
+color:var(--primary-text-color);
+}
 
 .hero-section {
     background-color:var(--primary-background-color);
@@ -108,32 +112,34 @@ ul {
 }
 
 .hero-button {
-    font-family: "roboto";
+    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;       
+    line-height: 1.87;       
     letter-spacing: 0.06em; 
     color:var(--primary-white-color);
     background-color:var(--accent-text-color);
     padding:10px 32px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border: none;
+    border-color: transparent ;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
 }
 
 .benefits-title {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
-    
     text-transform: uppercase;
 }
 
 .benefits-description {
-  
     line-height: 1.71;
-    
     color:var(--secondary-text-color);
 }
 
@@ -146,20 +152,17 @@ ul {
     background-color:var(--primary-white-color);
 }
 .team-user {
-
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
-
+    line-height: 1.19;
     text-align: center;
     
 }
 
 .team-job {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
-    
     color:var(--secondary-text-color);
 }
 
@@ -172,8 +175,7 @@ ul {
     font-family: "raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.9;
-    
+    line-height: 1.19;
     color:var(--primary-white-color);
 
 }
@@ -199,7 +201,7 @@ ul {
 
 /* portfolio */
 .main-button {
-    font-family: "roboto";
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -219,8 +221,9 @@ ul {
 .main-button:hover,
 .main-button:focus {
     background-color:var(--accent-text-color);
+    color:var(--primary-white-color);
 }
-.main-button.rest {
+.main-button. {
     background-color:var(--accent-text-color);
     color:var(--primary-white-color);
 }
@@ -228,13 +231,13 @@ ul {
 .main-user {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.99;
+    line-height: 2;
     letter-spacing: 0.06em;
     color:var(--primary-text-color);
 }
 .item-main {
 font-size: 16px;
-line-height: 1.9;
+line-height: 1.88;
 
 color:var(--secondary-text-color)
 
