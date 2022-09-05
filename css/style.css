@@ -27,33 +27,9 @@ ul {
 }
 
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    -webkit-clip-path: inset(100%);
-            clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-
-.title-secon {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    
-    color:var(--primary-text-color);
-}
-
 .header {
     border-bottom: 1px solid #ececec;
 }
-
 
 .header-logo {
     font-family: "raleway", sans-serif;
@@ -131,6 +107,33 @@ color:var(--primary-text-color);
     background-color: #188CE8;
 }
 
+
+/* наші особливостві Чим ми займаємося */
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .title-secon {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
+    color:var(--primary-text-color);
+}
+
 .benefits-title {
     font-size: 14px;
     font-weight: 700;
@@ -143,6 +146,8 @@ color:var(--primary-text-color);
     color:var(--secondary-text-color);
 }
 
+/* Наша команда */
+
 .section-job {
     background-color:var(--secondary-background-color);
 }
@@ -151,13 +156,13 @@ color:var(--primary-text-color);
 .section-title {
     background-color:var(--primary-white-color);
 }
+
 .team-user {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    
-}
+ }
 
 .team-job {
     font-size: 16px;
@@ -166,7 +171,7 @@ color:var(--primary-text-color);
     color:var(--secondary-text-color);
 }
 
-
+/* footer */
 .footer {
    background-color:var(--primary-background-color);
 }
@@ -206,7 +211,6 @@ color:var(--primary-text-color);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-   
     color:var(--primary-text-color)
     background-color:var(--secondary-background-color);
     padding:6px 25px;
@@ -215,8 +219,7 @@ color:var(--primary-text-color);
     border-radius: 4px;
     border: none;
     cursor: pointer;
-   
-}
+ }
 
 .main-button:hover,
 .main-button:focus {
@@ -235,12 +238,11 @@ color:var(--primary-text-color);
     letter-spacing: 0.06em;
     color:var(--primary-text-color);
 }
+
 .item-main {
-font-size: 16px;
-line-height: 1.88;
-
-color:var(--secondary-text-color)
-
+    font-size: 16px;
+    line-height: 1.88;
+    color:var(--secondary-text-color)
 }
 
 /* portfolio */
