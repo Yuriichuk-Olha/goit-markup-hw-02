@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"/>
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
 
 <body class="page">
@@ -16,8 +18,8 @@
                <span class="accent-logo">Web</span>Studio
             </a>
             <ul>
-                <li class="navigation-item"> <a class="navigation-link" href="#">Студія</a> </li>
-                <li class="navigation-item"> <a class="navigation-link" href="./index.html">Портфоліо</a> </li>
+                <li class="navigation-item"> <a class="navigation-link" href="./index.html">Студія</a> </li>
+                <li class="navigation-item"> <a class="navigation-link current" href="#">Портфоліо</a> </li>
                 <li class="navigation-item"> <a class="navigation-link" href="#">Контакти</a> </li>
             </ul>
         </nav>
@@ -28,21 +30,23 @@
     </header>
 
     <main>
-        <h1 class="visually-hidden">Наше портфоліо</h1>
-        <ul>
+        <section>
+             <h1 class="visually-hidden">Наше портфоліо</h1>
+               <ul>
 
-            <li><button class="main-button">Усі</button></li>
-            <li><button class="main-button">Веб-сайти</button></li>
-            <li><button class="main-button">Додатки</button></li>
-            <li><button class="main-button">Дизайн</button></li>
-            <li><button class="main-button">Маркетинг</button></li>
-        </ul>
+                     <li><button class="main-button rest">Усі</button></li>
+                     <li><button class="main-button">Веб-сайти</button></li>
+                     <li><button class="main-button">Додатки</button></li>
+                     <li><button class="main-button">Дизайн</button></li>
+                     <li><button class="main-button">Маркетинг</button></li>
+             </ul>
+    </section>
     <ul>
          <li>
              <img src="./images/portfolio/people.jpg" alt="web"
              width="370">
              <h2 class="main-user">Технокряк</h2>
-             <p class="item-main>Веб-сайт</p>
+             <p class="item-main">Веб-сайт</p>
          </li>
          <li>
             <img src="./images/portfolio/star.jpg" alt="Golden Star"
@@ -69,7 +73,7 @@
              <p class="item-main">Додаток</p>
          </li>
          <li>
-             <img src="./images/portfolio/monitor.jpg"alt="Borders"
+             <img src="./images/portfolio/monitor.jpg" alt="Borders"
              width="370">
              <h2 class="main-user">Inspiration has no Borders</h2>
              <p class="item-main">Веб-сайт</p>
@@ -77,7 +81,7 @@
          <li>
              <img src="./images/portfolio/limited.jpg" alt="Limited"
              width="370">
-             <h2>Видання Limited Edition</h2>
+             <h2 class="main-user">Видання Limited Edition</h2>
              <p class="item-main">Дизайн</p>
          </li>
           <li>
@@ -99,14 +103,13 @@
     <footer class="footer">
         <a class="footer-logo" href="./index.html"><span class="accent-logo">Web</span>Studio</a>
         <address>
-            <a class="footer-address" href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&usp=sharing" target="_blank" rel="noopener nofollow noreterrer">
-                м. Київ, пр-т Лесі Українки, 26</a>
-        </address>
-
         <ul>
+            <li><a class="footer-address" href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&usp=sharing" target="_blank" rel="noopener nofollow noreterrer">
+                м. Київ, пр-т Лесі Українки, 26</a></li>
             <li><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="footer-contact" href="tel:+380961111111"> +38 096 111 11 11 </a> </li>
         </ul>
+         </address>
     </footer>
 </body>
 
